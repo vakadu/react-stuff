@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const routes = ['typehead'];
+const routes = ['typehead', 'checkbox', 'nayan-virtual'];
 
 const Page = async () => {
 	return (
-		<div className="grid grid-cols-4 p-4 max-w-2xl mx-auto">
+		<div className="grid grid-cols-4 gap-4 p-4 max-w-2xl mx-auto">
 			{routes.map((route) => {
 				return (
 					<Link
